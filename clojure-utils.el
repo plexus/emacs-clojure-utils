@@ -78,3 +78,5 @@
               ((-contains? '( ?\( ?\[ ?\: ?\{ ) fc) nil)
               (t (beginning-of-thing 'sexp)))
         (insert "#_")))))
+
+(provide 'clojure-utils)
